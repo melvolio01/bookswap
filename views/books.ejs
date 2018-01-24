@@ -1,0 +1,10 @@
+<h1>This is where the books live</h1>
+
+<% for (var i=0; i < books.length; i ++) { %>
+
+<h3><%= books[i].title %></h4>
+<h4><%= books[i].author %></h4>
+<img src=<%= books[i].image %>>
+<h4>Average rating for this book: <%= books[i].rating %></h4>
+
+<% } %>
