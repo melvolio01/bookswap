@@ -1,0 +1,15 @@
+{
+  "name": "bookswap",
+  "version": "1.0.0",
+  "description": "An app building on info learned on yelp camp project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy Hunt",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
